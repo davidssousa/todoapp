@@ -8,7 +8,6 @@ export class Todo {
 
     constructor(texto: string) {
         this.texto = texto;
-
         this.id = Math.random();
         this.completed = false;
     }
